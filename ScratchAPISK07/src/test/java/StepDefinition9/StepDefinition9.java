@@ -46,6 +46,8 @@ public class StepDefinition9 {
 		res=given().log().all().headers("x-api-key","reqres-free-v1")
 				.relaxedHTTPSValidation().spec(req)
 				.body(POJOImplementation.createUserData());
+
+		System.out.println("Hello");
 		
 		
 	    
