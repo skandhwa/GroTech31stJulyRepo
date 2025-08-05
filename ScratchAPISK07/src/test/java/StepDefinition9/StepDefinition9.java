@@ -60,6 +60,8 @@ public void user_submits_a_new_request_with_an(String endpoint) {
 	respec=new ResponseSpecBuilder().build();
 	
 	response=	res.when().post(endpoint).then().log().all().extract().response();
+
+	System.out.println("Hi");
     
 }
 
