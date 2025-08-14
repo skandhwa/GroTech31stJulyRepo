@@ -62,6 +62,8 @@ public void user_submits_a_new_request_with_an(String endpoint) {
 	response=	res.when().post(endpoint).then().log().all().extract().response();
 
 	System.out.println("Hi");
+
+	Syste,out.println("Hello");
     
 }
 
